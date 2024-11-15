@@ -1,7 +1,7 @@
 # Remics
 A framework for Redescription-based multi-omics analysis 
 
-[![Remics Diagram][remics]](#)
+[![Remics Diagram][remics_final]](#)
 
 <!-- <a>![badge-alt-text](images/remics_final.jpg)</a> -->
 
