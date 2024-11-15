@@ -1,7 +1,7 @@
 # Remics
 A framework for Redescription-based multi-omics analysis 
 
-[![Remics Diagram][remics_final]](#)
+[![Remics Diagram][remics]](#)
 
 <!-- <a>![badge-alt-text](images/remics_final.jpg)</a> -->
 
@@ -23,3 +23,4 @@ Remics/
 │       ├── 📄  cuna.py # computes CuNA
 │       ├── 📄  cumulants.jl # Julia subroutine performing cumulants
 
+[remics]: images/remics_final.jpg
