@@ -22,7 +22,7 @@ Remics/
 │       ├── 📄  cures.py # computes CuRES
 │       ├── 📄  cuna.py # computes CuNA
 │       ├── 📄  cumulants.jl # Julia subroutine performing cumulants
-
+```
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
