@@ -14,7 +14,7 @@ pip install remics
 ```
 
 ### Running remics
-Check out the tutorial here to run `remics`: [![tutorial][notebook]](#)
+Check out the tutorial [here][tutorial/remics_walkthrough.ipynb] to run `remics`
 
 ## 📂 Project File Structure
 
@@ -38,4 +38,3 @@ Remics/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [remics]: images/remics_final.jpg
-[notebook]: tutorial/remics_walkthrough.ipynb]
