@@ -5,6 +5,17 @@ A framework for Redescription-based multi-omics analysis
 
 <!-- <a>![badge-alt-text](images/remics_final.jpg)</a> -->
 
+## Getting Started
+
+### Installing remics
+
+```
+pip install remics
+```
+
+### Running remics
+Check out the tutorial here to run `remics`: [![tutorial][notebook]](#)
+
 ## 📂 Project File Structure
 
 The project structure is as follows:
@@ -27,3 +38,4 @@ Remics/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [remics]: images/remics_final.jpg
+[notebook]: tutorial/remics_walkthrough.ipynb]

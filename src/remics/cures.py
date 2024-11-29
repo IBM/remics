@@ -238,7 +238,7 @@ def get_cures(df,
         print("**************************************")
         print("CuReS prediction statistics")
         print("**************************************")
-        print_scores(res)
+        print_scores(res, multi_class)
         print("**************************************")
         
     return cures, res

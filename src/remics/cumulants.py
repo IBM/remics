@@ -190,7 +190,12 @@ def julia_cumulants( args ):
     command = "export JULIA_NUM_THREADS=8"
     result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
-    command = "/u/abose/Pkgs/julia-1.8.5/bin/julia " + cuna_dir + "cumulants.jl " + cuna_dir + " " + str(order)
+    # if path is empty, assuming that Julia is properly added to PATH
+    #if julia_path == "":
+    command = "julia " + cuna_dir + "cumulants.jl " + cuna_dir + " " + str(order)
+    # otherwise use the user provided path to Julia
+    # else:
+    #     command = julia_path + " " + cuna_dir + "cumulants.jl " + cuna_dir + " " + str(order)
     if verbose == 1:
         print("running:", command)
     result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
