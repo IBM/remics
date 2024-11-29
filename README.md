@@ -14,7 +14,7 @@ pip install remics
 ```
 
 ### Running remics
-Check out the tutorial [here][tutorial/remics_walkthrough.ipynb] to run `remics`
+Check out the tutorial [here](tutorial/remics_walkthrough.ipynb) to run `remics`
 
 ## 📂 Project File Structure
 
